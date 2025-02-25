@@ -32,12 +32,12 @@
 		<p>
 			<label>
 				<input onchange="hide()" name="CheckboxGroup1" type="checkbox" id="CheckboxGroup1_0" title="Actions" value="1">
-				Hide me 
+				Hide me (using hide()-function in html)
 			</label>
 			<br>
 			<label>
-				<input onchange="show()" type="checkbox" name="CheckboxGroup1" value="2" id="CheckboxGroup1_1">
-				Show me
+				<input type="checkbox" name="CheckboxGroup1" value="2" id="CheckboxGroup1_1">
+				Show me (using dynamically added event listener)
 			</label>
 			<br>
 			<label>
@@ -50,7 +50,7 @@
 		  <li>Second checkbox should return the visibility of the element to a normal state (block).</li>
 		  <li>Third checkbox should find the elements with class &quot;surprise&quot; and change the font size to 20.</li>
 		</ul>
-		<div id="me" class="red-box"></div>
+		<div id="me" class="red-box">Hide this content!</div>
 		<p>&nbsp;</p>
 		<hr/>
 		<h2>Exercise 3: Images and pulldowns</h2>
