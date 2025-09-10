@@ -1,6 +1,6 @@
-# Workshop 2: JavaScript BOM
+# Workshop 2: JavaScript BOM & DOM
 
-In this exercise we will practice the use of BOM. Use the
+In this exercise we will practice the use of BOM and DOM. Use the
 lecture-material as a reference guide side by side these exercises. It
 might also be a good idea to save the lines of code you write during the
 exercises for later use.
